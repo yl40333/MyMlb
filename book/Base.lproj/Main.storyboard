@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wh7-tm-5q9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="eXn-uI-Wuq">
+            <objects>
+                <viewController id="pOA-dC-ahR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fx3-MQ-JuX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="verlander" translatesAutoresizingMaskIntoConstraints="NO" id="r9j-5t-OmI">
+                                <rect key="frame" x="16" y="20" width="343" height="286"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgW-jg-Qca">
+                                <rect key="frame" x="16" y="307" width="343" height="340"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">綽號別稱：虎王
+出生日期：1983年02月20日（36歲）
+身高體重：196公分　102公斤
+投打習慣：右投右打
+守備位置：投手 (斜肩投球)
+擅長球路：四縫線快速球、曲球、變速球、滑球
+最快球速：102 mph (約164 km/h)
+出生地點：USA.gif美國維吉尼亞州Manakin-Sabot（NED.gif荷蘭裔）
+最高學歷：Old Dominion University
+職棒選秀：2004年美國職棒底特律老虎隊第一輪第2順位
+親屬關係：已婚、配偶Kate Upton
+經紀人　：Milchin &amp; Pieper, SFX
+推定年薪：2800萬美金（2019年）
+原文姓名：Justin Brooks Verlander
+經歷</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Xk1-wF-2fc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nUH-jv-dtE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="1040"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4wA-y8-IBS">
+            <objects>
+                <viewController id="FQD-Re-n7F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6bJ-Rr-hGu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scherzer" translatesAutoresizingMaskIntoConstraints="NO" id="NYw-Uv-BcQ">
+                                <rect key="frame" x="16" y="20" width="343" height="323"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAr-eo-FKZ">
+                                <rect key="frame" x="16" y="343" width="343" height="304"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">出生日期：1984年07月27日（34歲）
+身高體重：191公分　98公斤
+投打習慣：右投右打
+守備位置：投手 (四分之三側投)
+最快球速：100 mph (約161 km/h)
+擅長球路：四縫線快速球、滑球、變速球、曲球
+出生地點：USA.gif美國密蘇里州聖路易（GER.gif德國裔）
+最高學歷：University of Missouri
+職棒選秀：2006年美國職棒亞利桑那響尾蛇隊第一輪第11順位
+經紀人　：Scott Boras
+推定年薪：1500萬美金（2019年）
+原文姓名：Maxwell M. Scherzer</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aoN-BG-4if"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wcp-jW-lIV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="319" y="1040"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="0jp-Mm-LCD">
+            <objects>
+                <navigationController id="Acj-2J-VQz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="0va-I6-qa4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eqU-qe-27A">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.01683461107313633" green="0.74859923124313354" blue="0.97480529546737671" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7Um-IH-FDx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Phj-ee-KOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-930" y="32"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="buS-on-d5O">
+            <objects>
+                <tabBarController id="Wh7-tm-5q9" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XAL-Ue-E5Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Acj-2J-VQz" kind="relationship" relationship="viewControllers" id="92H-vd-FC6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lx1-3Q-OVX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1807" y="32"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="book" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUs-Wh-a19">
+                                <rect key="frame" x="30" y="172" width="131" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="kershaw" image="kershaw1"/>
+                                <connections>
+                                    <segue destination="mvh-CH-5IK" kind="show" id="cDV-bS-kr0"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MLB" translatesAutoresizingMaskIntoConstraints="NO" id="j4o-u7-Hrv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLm-Kd-75C">
+                                <rect key="frame" x="213" y="173" width="128" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="cluber" image="cluber"/>
+                                <connections>
+                                    <segue destination="18R-I3-LiX" kind="show" id="L9n-e7-uKl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OtJ-hM-dlA">
+                                <rect key="frame" x="30" y="398" width="131" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="verlander1"/>
+                                <connections>
+                                    <segue destination="pOA-dC-ahR" kind="show" id="i1f-yH-Rlg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwT-Kk-fzy">
+                                <rect key="frame" x="205" y="412" width="144" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="scherzer1"/>
+                                <connections>
+                                    <segue destination="FQD-Re-n7F" kind="show" id="Che-kt-uy3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3267059326171875" green="0.87680655717849731" blue="0.91071873903274536" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="luv-0z-c3N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-130.40000000000001" y="31.934032983508249"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="g2m-g8-n43">
+            <objects>
+                <viewController id="mvh-CH-5IK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Npb-gx-7Jv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kershaw" translatesAutoresizingMaskIntoConstraints="NO" id="SPb-aw-ofK">
+                                <rect key="frame" x="16" y="20" width="359" height="304"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojj-Ft-dD9">
+                                <rect key="frame" x="16" y="332" width="343" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">別號暱稱：The Claw、Kid K、The Minotaur or Kersh、書僮
+出生日期：1988年03月19日（31歲）
+身高體重：193公分　103公斤
+投打習慣：左投左打
+守備位置：投手 (上肩投球)
+最快球速：98 mph (約158 km/h)
+擅長球路：四縫線快速球、滑球、曲球
+出生地點：USA.gif美國德州達拉斯
+最高學歷：Highland Park High School
+職棒選秀：2006年美國職棒洛杉磯道奇隊第一輪第7順位
+經紀人　：Hendricks Sports
+推定年薪：3100萬美金（2019年）
+原文姓名：Clayton Edward Kershaw</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5ap-AY-Es3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Ja-o0-Iks" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="-324"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aC2-5c-hNx">
+            <objects>
+                <viewController id="18R-I3-LiX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3MD-MV-X0M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cluber1" translatesAutoresizingMaskIntoConstraints="NO" id="13y-ud-Qaw">
+                                <rect key="frame" x="0.0" y="20" width="375" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XF3-mD-vRB">
+                                <rect key="frame" x="16" y="343" width="343" height="304"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">別號暱稱：Klubot、Hans Kluber、骷髏伯
+出生日期：1986年04月10日（32歲）
+身高體重：193公分　98公斤
+投打習慣：右投右打
+守備位置：投手 (斜肩投球)
+最快球速：97 mph (約156 km/h)
+擅長球路：伸卡球、切球、滑曲球
+出生地點：USA.gif美國阿拉巴馬州Birmingham（AUT.gif奧地利裔）
+最高學歷：Stetson University
+職棒選秀：2007年美國職棒聖地牙哥教士隊第四輪第134順位
+經紀人　：Jet Sports Management
+推定年薪：1300萬美金（2019年）
+原文姓名：Corey Scott Kluber</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="L2I-rF-FFM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="giK-Wc-Z7l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="374"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MLB" width="1273" height="784"/>
+        <image name="cluber" width="176" height="130"/>
+        <image name="cluber1" width="720" height="520"/>
+        <image name="kershaw" width="750" height="554"/>
+        <image name="kershaw1" width="200" height="200"/>
+        <image name="scherzer" width="1200" height="800"/>
+        <image name="scherzer1" width="144" height="146"/>
+        <image name="verlander" width="690" height="498.75"/>
+        <image name="verlander1" width="183" height="173"/>
+    </resources>
+</document>
