@@ -22,8 +22,8 @@
                                 <rect key="frame" x="16" y="20" width="343" height="286"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgW-jg-Qca">
-                                <rect key="frame" x="16" y="307" width="343" height="340"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z03-zK-1iH">
+                                <rect key="frame" x="16" y="307" width="343" height="360"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">綽號別稱：虎王
 出生日期：1983年02月20日（36歲）
@@ -38,8 +38,7 @@
 親屬關係：已婚、配偶Kate Upton
 經紀人　：Milchin &amp; Pieper, SFX
 推定年薪：2800萬美金（2019年）
-原文姓名：Justin Brooks Verlander
-經歷</mutableString>
+原文姓名：Justin Brooks Verlander</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -51,7 +50,213 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nUH-jv-dtE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1020" y="1040"/>
+            <point key="canvasLocation" x="1959.2" y="1039.4302848575712"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gKs-CU-8eC">
+            <objects>
+                <viewController id="R6x-Ci-Nmc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Spc-99-I1w">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n23-ni-7cM">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XWH-t8-4Fm">
+                                        <rect key="frame" x="0.0" y="-6" width="375" height="713"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veZ-f3-inZ">
+                                        <rect key="frame" x="0.0" y="-77" width="375" height="713"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <mutableString key="text">隊史沿革	　1901年　巴爾的摩金鶯隊　Baltomore Orioles
+→1903年　紐約高地人隊　　New York Highlanders
+→1913年　紐約洋基隊　　　New York Yankees
+→迄今
+創隊年度	1901年
+所屬聯盟	美國職棒美國聯盟
+所屬分區	美國聯盟東區
+球隊主場	Yankee Stadium
+球團老闆	Yankee Global Enterprises
+球團經理	Brian Cashman
+年度冠軍	27次　2009、2000、1999、1998、1996、1978、1977、1962、1961、1958、1956、1953、1952、1951、1950、1949、1947、1943、1941、1939、1938、1937、1936、1932、1928、1927、1923
+聯盟冠軍	40次　2009、2003、2001、2000、1999、1998、1996、1981、1978、1977、1976、1964、1963、1962、1961、1960、1958、1957、1956、1955、1953、1952、1951、1950、1949、1947、1943、1942、1941、1939、1938、1937、1936、1932、1928、1927、1926、1923、1922、1921
+分區冠軍	18次　2012、2011、2009、2006、2005、2004、2003、2002、2001、2000、1999、1998、1996、1981、1980、1978、1977、1976
+外卡資格	7次　2018、2017、2015、2010、2007、1997、1995</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="keyPath">
+                                        <size key="value" width="713" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="jyc-9o-zBE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jvu-Gb-6oK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1330.4000000000001" y="1957.8710644677662"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZEZ-cp-g2g">
+            <objects>
+                <viewController id="KF3-iI-1PQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xwj-v4-evO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fnp-zk-1BE">
+                                <rect key="frame" x="0.0" y="67" width="375" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">隊史沿革	　1901年　波士頓美國人隊　Boston Americans
+→1908年　波士頓紅襪隊　　Boston Red Sox
+→迄今
+創隊年度	1901年
+所屬聯盟	美國職棒美國聯盟
+所屬分區	美國聯盟東區
+球隊主場	Fenway Park
+球團老闆	John Henry
+球團經理	Dave Dombrowski
+年度冠軍	9次　2018、2013、2007、2004、1918、1916、1915、1912、1903
+聯盟冠軍	14次　2018、2013、2007、2004、1986、1975、1967、1946、1918、1916、1915、1912、1904、1903
+分區冠軍	10次　2018、2017、2016、2013、2007、1995、1990、1988、1986、1975
+外卡資格	7次　2009、2008、2005、2004、2003、1999、1998</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="sH1-ar-Tsh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="arq-iO-VKc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IMi-UR-BUT">
+                    <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </objects>
+            <point key="canvasLocation" x="-612" y="1953.3733133433284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xjB-G0-MIC">
+            <objects>
+                <viewController id="ptS-oH-z0p" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hld-Zv-oKp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5qu-Zc-u8a">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lS9-5Y-VGo">
+                                        <rect key="frame" x="0.0" y="-107" width="375" height="768"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sy9-P4-lqs">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="768"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">隊史沿革	　1884年　布魯克林大西洋隊　Brooklyn Atlantics
+→1885年　布魯克林灰人隊　　Brooklyn Grays
+→1888年　布魯克林新郎隊　　Brooklyn Bridgrooms
+→1891年　布魯克林新郎隊　　Brooklyn Grooms
+→1896年　布魯克林新郎隊　　Brooklyn Bridgrooms
+→1899年　布魯克林超霸隊　　Brooklyn Superbas
+→1911年　布魯克林道奇隊　　Brooklyn Trolley Dodgers
+→1913年　布魯克林超霸隊　　Brooklyn Superbas
+→1914年　布魯克林羅賓隊　　Brooklyn Robins
+→1932年　布魯克林道奇隊　　Brooklyn Dodgers
+→1958年　洛杉磯道奇隊　　　Los Angeles Dodgers
+→迄今
+創隊年度	1884年
+所屬聯盟	美國職棒國家聯盟
+所屬分區	國家聯盟西區
+球隊主場	Dodger Stadium
+球團老闆	Guggenheim Baseball Management
+球團經理	Farhan Zaidi
+年度冠軍	6次　1988、1981、1965、1963、1959、1955
+聯盟冠軍	23次　2018、2017、1988、1981、1978、1977、1974、1966、1965、1963、1959、1956、1955、1953、1952、1949、1947、1941、1920、1916、1900、1899、1890
+分區冠軍	17次　2018、2017、2016、2015、2014、2013、2009、2008、2004、1995、1988、1985、1983、1981、1978、1977、1974
+外卡資格	2次　2006、1996</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <viewLayoutGuide key="safeArea" id="1Qy-Bq-2cD"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="768"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="UDI-wE-hpy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bMF-JJ-218" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="1960.569715142429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="40q-gM-Db8">
+            <objects>
+                <viewController id="9Zq-Mq-bJQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ANI-a3-eCr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcD-KM-d2D">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">隊史沿革	　 1894年　大急流城竊賊隊　　　　Grand Rapids Rustlers
+→1900年　克里夫蘭湖岸隊　　　　Cleveland Lake Shores
+→1901年　克里夫蘭藍知更鳥隊　　Cleveland Bluebirds
+→1902年　克里夫蘭野馬隊　　　　Cleveland Bronchos
+→1903年　克里夫蘭納普隊　　　　Cleveland Naps
+→1915年　克里夫蘭印地安人隊　　Cleveland Indians
+→迄今
+創隊年度	1901年
+所屬聯盟	美國職棒美國聯盟
+所屬分區	美國聯盟中區
+球隊主場	Progressive Field
+球團老闆	Larry Dolan &amp; Paul Dolan
+球團經理	Mike Chernoff
+年度冠軍	2次　1948、1920
+聯盟冠軍	6次　2016、1997、1995、1954、1948、1920
+分區冠軍	10次　2018、2017、2016、2007、2001、1999、1998、1997、1996、1995
+外卡資格	1次　2013</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Y7d-mP-jmv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6I-Zo-bzd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="1960.569715142429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4wA-y8-IBS">
@@ -66,9 +271,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAr-eo-FKZ">
-                                <rect key="frame" x="16" y="343" width="343" height="304"/>
+                                <rect key="frame" x="16" y="343" width="343" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">出生日期：1984年07月27日（34歲）
+                                <string key="text">出生日期：1984年07月27日（34歲）
 身高體重：191公分　98公斤
 投打習慣：右投右打
 守備位置：投手 (四分之三側投)
@@ -79,7 +284,7 @@
 職棒選秀：2006年美國職棒亞利桑那響尾蛇隊第一輪第11順位
 經紀人　：Scott Boras
 推定年薪：1500萬美金（2019年）
-原文姓名：Maxwell M. Scherzer</mutableString>
+原文姓名：Maxwell M. Scherzer</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -91,13 +296,86 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wcp-jW-lIV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="319" y="1040"/>
+            <point key="canvasLocation" x="2764" y="694.90254872563719"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
+        <scene sceneID="Gdi-cq-isr">
+            <objects>
+                <viewController id="qLd-FT-ghW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8XV-5b-pjY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MLB" translatesAutoresizingMaskIntoConstraints="NO" id="2Du-gL-Wq0">
+                                <rect key="frame" x="0.0" y="20" width="375" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x0j-s0-0pO">
+                                <rect key="frame" x="0.0" y="239" width="375" height="379"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vjo-O0-jgl">
+                                        <rect key="frame" x="37" y="0.0" width="300" height="1200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1L-Ms-uSs">
+                                                <rect key="frame" x="16" y="284" width="268" height="274"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="indian"/>
+                                                <connections>
+                                                    <segue destination="9Zq-Mq-bJQ" kind="show" id="IWf-jB-wtJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddo-Pt-EpU">
+                                                <rect key="frame" x="16" y="904" width="268" height="276"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="doger"/>
+                                                <connections>
+                                                    <segue destination="ptS-oH-z0p" kind="show" id="qTd-wQ-Bs9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUK-1k-bVG">
+                                                <rect key="frame" x="16" y="0.0" width="268" height="276"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="boston"/>
+                                                <connections>
+                                                    <segue destination="KF3-iI-1PQ" kind="show" id="Ljc-Ml-31w"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPY-PD-Pkl">
+                                                <rect key="frame" x="16" y="566" width="268" height="330"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="yankee"/>
+                                                <connections>
+                                                    <segue destination="R6x-Ci-Nmc" kind="show" id="dQD-ri-Yku"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <viewLayoutGuide key="safeArea" id="WaL-hk-cBD"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="1201"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.01683461107313633" green="0.74859923124313354" blue="0.97480529546737671" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Tj7-VU-FAE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="O8V-N1-nyc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0p-Zw-8Cb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="1158.1709145427287"/>
+        </scene>
+        <!--player-->
         <scene sceneID="0jp-Mm-LCD">
             <objects>
                 <navigationController id="Acj-2J-VQz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="0va-I6-qa4"/>
+                    <tabBarItem key="tabBarItem" title="player" image="AppIcon" selectedImage="AppIcon" id="0va-I6-qa4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eqU-qe-27A">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -122,6 +400,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="Acj-2J-VQz" kind="relationship" relationship="viewControllers" id="92H-vd-FC6"/>
+                        <segue destination="i3K-Mu-Fll" kind="relationship" relationship="viewControllers" id="sb8-an-AOh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lx1-3Q-OVX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -196,9 +475,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojj-Ft-dD9">
-                                <rect key="frame" x="16" y="332" width="343" height="315"/>
+                                <rect key="frame" x="16" y="332" width="343" height="335"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">別號暱稱：The Claw、Kid K、The Minotaur or Kersh、書僮
+                                <string key="text">別號暱稱：The Claw、Kid K、The Minotaur or Kersh、書僮
 出生日期：1988年03月19日（31歲）
 身高體重：193公分　103公斤
 投打習慣：左投左打
@@ -210,7 +489,7 @@
 職棒選秀：2006年美國職棒洛杉磯道奇隊第一輪第7順位
 經紀人　：Hendricks Sports
 推定年薪：3100萬美金（2019年）
-原文姓名：Clayton Edward Kershaw</mutableString>
+原文姓名：Clayton Edward Kershaw</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -222,7 +501,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ja-o0-Iks" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1020" y="-324"/>
+            <point key="canvasLocation" x="1020" y="-324.28785607196403"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aC2-5c-hNx">
@@ -237,9 +516,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XF3-mD-vRB">
-                                <rect key="frame" x="16" y="343" width="343" height="304"/>
+                                <rect key="frame" x="16" y="343" width="343" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">別號暱稱：Klubot、Hans Kluber、骷髏伯
+                                <string key="text">別號暱稱：Klubot、Hans Kluber、骷髏伯
 出生日期：1986年04月10日（32歲）
 身高體重：193公分　98公斤
 投打習慣：右投右打
@@ -251,7 +530,7 @@
 職棒選秀：2007年美國職棒聖地牙哥教士隊第四輪第134順位
 經紀人　：Jet Sports Management
 推定年薪：1300萬美金（2019年）
-原文姓名：Corey Scott Kluber</mutableString>
+原文姓名：Corey Scott Kluber</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -263,18 +542,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="giK-Wc-Z7l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1020" y="374"/>
+            <point key="canvasLocation" x="1020" y="373.76311844077964"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4N5-LJ-BZu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="i3K-Mu-Fll" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" selectedImage="player" systemItem="favorites" id="Cdi-He-Psa"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wLt-M6-MB4">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qLd-FT-ghW" kind="relationship" relationship="rootViewController" id="JEg-ff-6rf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aSU-IO-6KY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-119.2" y="1158.1709145427287"/>
         </scene>
     </scenes>
     <resources>
+        <image name="AppIcon" width="16" height="16"/>
         <image name="MLB" width="1273" height="784"/>
+        <image name="boston" width="200" height="199"/>
         <image name="cluber" width="176" height="130"/>
         <image name="cluber1" width="720" height="520"/>
+        <image name="doger" width="225" height="225"/>
+        <image name="indian" width="225" height="225"/>
         <image name="kershaw" width="750" height="554"/>
         <image name="kershaw1" width="200" height="200"/>
+        <image name="player" width="16" height="16"/>
         <image name="scherzer" width="1200" height="800"/>
         <image name="scherzer1" width="144" height="146"/>
         <image name="verlander" width="690" height="498.75"/>
         <image name="verlander1" width="183" height="173"/>
+        <image name="yankee" width="221" height="210"/>
     </resources>
 </document>
