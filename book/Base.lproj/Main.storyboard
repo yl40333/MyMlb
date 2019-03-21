@@ -25,7 +25,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z03-zK-1iH">
                                 <rect key="frame" x="16" y="307" width="343" height="360"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">綽號別稱：虎王
+                                <string key="text">綽號別稱：虎王
 出生日期：1983年02月20日（36歲）
 身高體重：196公分　102公斤
 投打習慣：右投右打
@@ -38,7 +38,7 @@
 親屬關係：已婚、配偶Kate Upton
 經紀人　：Milchin &amp; Pieper, SFX
 推定年薪：2800萬美金（2019年）
-原文姓名：Justin Brooks Verlander</mutableString>
+原文姓名：Justin Brooks Verlander</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -73,7 +73,7 @@
                                         <rect key="frame" x="0.0" y="-77" width="375" height="713"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <mutableString key="text">隊史沿革	　1901年　巴爾的摩金鶯隊　Baltomore Orioles
+                                        <string key="text">隊史沿革	　1901年　巴爾的摩金鶯隊　Baltomore Orioles
 →1903年　紐約高地人隊　　New York Highlanders
 →1913年　紐約洋基隊　　　New York Yankees
 →迄今
@@ -86,7 +86,7 @@
 年度冠軍	27次　2009、2000、1999、1998、1996、1978、1977、1962、1961、1958、1956、1953、1952、1951、1950、1949、1947、1943、1941、1939、1938、1937、1936、1932、1928、1927、1923
 聯盟冠軍	40次　2009、2003、2001、2000、1999、1998、1996、1981、1978、1977、1976、1964、1963、1962、1961、1960、1958、1957、1956、1955、1953、1952、1951、1950、1949、1947、1943、1942、1941、1939、1938、1937、1936、1932、1928、1927、1926、1923、1922、1921
 分區冠軍	18次　2012、2011、2009、2006、2005、2004、2003、2002、2001、2000、1999、1998、1996、1981、1980、1978、1977、1976
-外卡資格	7次　2018、2017、2015、2010、2007、1997、1995</mutableString>
+外卡資格	7次　2018、2017、2015、2010、2007、1997、1995</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -118,7 +118,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fnp-zk-1BE">
                                 <rect key="frame" x="0.0" y="67" width="375" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">隊史沿革	　1901年　波士頓美國人隊　Boston Americans
+                                <string key="text">隊史沿革	　1901年　波士頓美國人隊　Boston Americans
 →1908年　波士頓紅襪隊　　Boston Red Sox
 →迄今
 創隊年度	1901年
@@ -130,7 +130,7 @@
 年度冠軍	9次　2018、2013、2007、2004、1918、1916、1915、1912、1903
 聯盟冠軍	14次　2018、2013、2007、2004、1986、1975、1967、1946、1918、1916、1915、1912、1904、1903
 分區冠軍	10次　2018、2017、2016、2013、2007、1995、1990、1988、1986、1975
-外卡資格	7次　2009、2008、2005、2004、2003、1999、1998</mutableString>
+外卡資格	7次　2009、2008、2005、2004、2003、1999、1998</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -165,13 +165,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lS9-5Y-VGo">
-                                        <rect key="frame" x="0.0" y="-107" width="375" height="768"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="768"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sy9-P4-lqs">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="768"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">隊史沿革	　1884年　布魯克林大西洋隊　Brooklyn Atlantics
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">隊史沿革	　1884年　布魯克林大西洋隊　Brooklyn Atlantics
 →1885年　布魯克林灰人隊　　Brooklyn Grays
 →1888年　布魯克林新郎隊　　Brooklyn Bridgrooms
 →1891年　布魯克林新郎隊　　Brooklyn Grooms
@@ -192,13 +193,13 @@
 年度冠軍	6次　1988、1981、1965、1963、1959、1955
 聯盟冠軍	23次　2018、2017、1988、1981、1978、1977、1974、1966、1965、1963、1959、1956、1955、1953、1952、1949、1947、1941、1920、1916、1900、1899、1890
 分區冠軍	17次　2018、2017、2016、2015、2014、2013、2009、2008、2004、1995、1988、1985、1983、1981、1978、1977、1974
-外卡資格	2次　2006、1996</mutableString>
+外卡資格	2次　2006、1996</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <viewLayoutGuide key="safeArea" id="1Qy-Bq-2cD"/>
                                     </view>
                                 </subviews>
@@ -228,7 +229,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcD-KM-d2D">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">隊史沿革	　 1894年　大急流城竊賊隊　　　　Grand Rapids Rustlers
+                                <string key="text">隊史沿革	　 1894年　大急流城竊賊隊　　　　Grand Rapids Rustlers
 →1900年　克里夫蘭湖岸隊　　　　Cleveland Lake Shores
 →1901年　克里夫蘭藍知更鳥隊　　Cleveland Bluebirds
 →1902年　克里夫蘭野馬隊　　　　Cleveland Bronchos
@@ -244,7 +245,7 @@
 年度冠軍	2次　1948、1920
 聯盟冠軍	6次　2016、1997、1995、1954、1948、1920
 分區冠軍	10次　2018、2017、2016、2007、2001、1999、1998、1997、1996、1995
-外卡資格	1次　2013</mutableString>
+外卡資格	1次　2013</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -306,16 +307,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MLB" translatesAutoresizingMaskIntoConstraints="NO" id="2Du-gL-Wq0">
-                                <rect key="frame" x="0.0" y="20" width="375" height="220"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x0j-s0-0pO">
                                 <rect key="frame" x="0.0" y="239" width="375" height="379"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vjo-O0-jgl">
-                                        <rect key="frame" x="37" y="0.0" width="300" height="1200"/>
+                                        <rect key="frame" x="37" y="80" width="300" height="1200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1L-Ms-uSs">
@@ -351,7 +348,7 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <viewLayoutGuide key="safeArea" id="WaL-hk-cBD"/>
                                     </view>
                                 </subviews>
@@ -361,6 +358,10 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MLB" translatesAutoresizingMaskIntoConstraints="NO" id="2Du-gL-Wq0">
+                                <rect key="frame" x="0.0" y="64" width="375" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.01683461107313633" green="0.74859923124313354" blue="0.97480529546737671" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Tj7-VU-FAE"/>
@@ -371,11 +372,11 @@
             </objects>
             <point key="canvasLocation" x="820" y="1158.1709145427287"/>
         </scene>
-        <!--player-->
+        <!--Navigation Controller-->
         <scene sceneID="0jp-Mm-LCD">
             <objects>
                 <navigationController id="Acj-2J-VQz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="player" image="AppIcon" selectedImage="AppIcon" id="0va-I6-qa4"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="0va-I6-qa4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eqU-qe-27A">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -416,7 +417,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUs-Wh-a19">
-                                <rect key="frame" x="30" y="172" width="131" height="166"/>
+                                <rect key="frame" x="0.0" y="248" width="188" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="kershaw" image="kershaw1"/>
@@ -425,31 +426,31 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MLB" translatesAutoresizingMaskIntoConstraints="NO" id="j4o-u7-Hrv">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="176"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLm-Kd-75C">
-                                <rect key="frame" x="213" y="173" width="128" height="169"/>
+                                <rect key="frame" x="185" y="248" width="190" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="cluber" image="cluber"/>
+                                <state key="normal" image="corey cluber"/>
                                 <connections>
                                     <segue destination="18R-I3-LiX" kind="show" id="L9n-e7-uKl"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwT-Kk-fzy">
+                                <rect key="frame" x="180" y="448" width="195" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="scherzer (1)"/>
+                                <connections>
+                                    <segue destination="FQD-Re-n7F" kind="show" id="Che-kt-uy3"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OtJ-hM-dlA">
-                                <rect key="frame" x="30" y="398" width="131" height="173"/>
+                                <rect key="frame" x="-9" y="410" width="197" height="243"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="verlander1"/>
                                 <connections>
                                     <segue destination="pOA-dC-ahR" kind="show" id="i1f-yH-Rlg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwT-Kk-fzy">
-                                <rect key="frame" x="205" y="412" width="144" height="146"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="scherzer1"/>
-                                <connections>
-                                    <segue destination="FQD-Re-n7F" kind="show" id="Che-kt-uy3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -548,7 +549,7 @@
         <scene sceneID="4N5-LJ-BZu">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="i3K-Mu-Fll" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" selectedImage="player" systemItem="favorites" id="Cdi-He-Psa"/>
+                    <tabBarItem key="tabBarItem" selectedImage="player" systemItem="more" id="Cdi-He-Psa"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wLt-M6-MB4">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -565,18 +566,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AppIcon" width="16" height="16"/>
         <image name="MLB" width="1273" height="784"/>
         <image name="boston" width="200" height="199"/>
-        <image name="cluber" width="176" height="130"/>
         <image name="cluber1" width="720" height="520"/>
+        <image name="corey cluber" width="200" height="200"/>
         <image name="doger" width="225" height="225"/>
         <image name="indian" width="225" height="225"/>
         <image name="kershaw" width="750" height="554"/>
         <image name="kershaw1" width="200" height="200"/>
         <image name="player" width="16" height="16"/>
         <image name="scherzer" width="1200" height="800"/>
-        <image name="scherzer1" width="144" height="146"/>
+        <image name="scherzer (1)" width="213" height="320"/>
         <image name="verlander" width="690" height="498.75"/>
         <image name="verlander1" width="183" height="173"/>
         <image name="yankee" width="221" height="210"/>
